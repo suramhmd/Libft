@@ -1,35 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_bzero.c                                         :+:      :+:    :+:   */
+/*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/07 23:56:41 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/08 13:59:59 by sdaabes          ###   ########.fr       */
+/*   Created: 2025/08/09 22:43:28 by sdaabes           #+#    #+#             */
+/*   Updated: 2025/08/09 23:40:48 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-#include <stdio.h>
-
-
-void ft_bzero(void *str, size_t n)
+#include <stddef.h>
+char *ft_strlcpy(char *dest, const char *src, size_t size)
 {
     size_t i;
     i = 0;
-    unsigned char *arr =(unsigned char *) str;
-    while (i < n)
+
+    if (size == 0)
+        return dest;
+
+    while (i < size - 1 && src[i] != '\0')
     {
-        arr[i] = 0;
+        dest[i] = src[i];
         i++;
     }
-   
+    dest[i] = '\0';
+    return dest;
 }
-// int main ()
-// {
-//     char str[19] = "just listen to me ";
-//     ft_bzero(str, 5);
-//     printf("%s\n", str);
-//     return 0;
-// }
