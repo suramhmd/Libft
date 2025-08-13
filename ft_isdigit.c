@@ -6,11 +6,11 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/07 15:30:01 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/07 15:34:13 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/13 20:43:25 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <ctype.h>
+
 
 int ft_isdigit(int c)
 {

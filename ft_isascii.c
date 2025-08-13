@@ -6,11 +6,10 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/07 16:03:59 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/07 17:21:05 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/13 20:43:25 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <ctype.h>
 
 int ft_isascii(int c)
 {

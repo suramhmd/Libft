@@ -6,13 +6,13 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/07 20:55:17 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/08 00:18:33 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/13 20:43:25 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
 #include <string.h>
-#include <stdio.h>
+
 void *ft_memset(void *ptr, int value, size_t num)
 {
     size_t i;
@@ -26,11 +26,11 @@ void *ft_memset(void *ptr, int value, size_t num)
     }
     return ptr;
 }
-int main ()
-{
-    char str[50] = "Hello, World!";
-    ft_memset(str, '*', 5);
-    // str should now be "***** World!"
-    printf("%s\n", str);
-    return 0;
-}
+// int main ()
+// {
+//     char str[50] = "Hello, World!";
+//     ft_memset(str, '*', 5);
+//     // str should now be "***** World!"
+//     printf("%s\n", str);
+//     return 0;
+// }

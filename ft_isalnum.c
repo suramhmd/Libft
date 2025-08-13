@@ -6,11 +6,11 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/07 15:35:48 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/07 15:56:15 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/13 20:43:25 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <ctype.h>
+
 
 int ft_isalnum(int c)
 {
