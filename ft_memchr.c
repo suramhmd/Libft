@@ -1,40 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/08 17:36:35 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/15 19:19:44 by sdaabes          ###   ########.fr       */
+/*   Created: 2025/08/15 21:09:16 by sdaabes           #+#    #+#             */
+/*   Updated: 2025/08/15 21:14:43 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stddef.h>
-#include <stdio.h>
-
-void	*ft_memcpy(void *dest, const void *src, size_t n)
+void	*ft_memchr(const void *s, int c, size_t n)
 {
 	size_t			i;
-	unsigned char	*d;
-	unsigned char	*s;
+	unsigned char	*str;
 
+	str = (unsigned char *)s;
 	i = 0;
-	d = (unsigned char *)dest;
-	s = (unsigned char *)src;
 	while (i < n)
 	{
-		d[i] = s[i];
+		if (str[i] == (unsigned char)c)
+			return ((void *)(str + i));
 		i++;
 	}
-	return (dest);
+	return (NULL);
 }
-// int main()
-// {
-//     char src[] = "Hello";
-//     char dest[10];
-
-//     ft_memcpy(dest, src, 6);
-//     printf("%s\n", dest);
-// }
-

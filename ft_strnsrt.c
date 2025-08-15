@@ -1,40 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*   ft_strnsrt.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/08 17:36:35 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/15 19:19:44 by sdaabes          ###   ########.fr       */
+/*   Created: 2025/08/15 22:15:59 by sdaabes           #+#    #+#             */
+/*   Updated: 2025/08/15 22:44:59 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
-#include <stdio.h>
+#include <stdlib.h>
 
-void	*ft_memcpy(void *dest, const void *src, size_t n)
+char *ft_strnstr(const char *big, const char *little, size_t len)
 {
-	size_t			i;
-	unsigned char	*d;
-	unsigned char	*s;
+    size_t i;
+    size_t j;
 
-	i = 0;
-	d = (unsigned char *)dest;
-	s = (unsigned char *)src;
-	while (i < n)
-	{
-		d[i] = s[i];
-		i++;
-	}
-	return (dest);
+    i = 0;
+    j = 0;
+
+    while (big[i] != '\0' && i < len)
+    {
+        j =0;
+        while (little[j] == big[i] && little[j] && big[i])
+        {
+            j++;
+            i++;
+        }
+        if(little[j] == '\0')
+        return 
+        
+        i++;
+    }
 }
-// int main()
-// {
-//     char src[] = "Hello";
-//     char dest[10];
-
-//     ft_memcpy(dest, src, 6);
-//     printf("%s\n", dest);
-// }
-
