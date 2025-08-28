@@ -6,12 +6,12 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/08 18:45:58 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/15 20:49:35 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/28 17:51:00 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
-#include <stdio.h>
+#include "libft.h"
+
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {

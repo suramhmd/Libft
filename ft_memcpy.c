@@ -6,12 +6,12 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/08 17:36:35 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/15 19:19:44 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/28 17:51:02 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
-#include <stdio.h>
+#include "libft.h"
+
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {

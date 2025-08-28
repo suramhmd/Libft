@@ -6,10 +6,11 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/07 16:03:59 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/13 20:43:25 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/28 17:51:17 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 
 int ft_isascii(int c)
 {

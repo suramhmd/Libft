@@ -6,12 +6,13 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/07 23:56:41 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/13 20:39:53 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/28 17:51:28 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
-#include <stdio.h>
+#include "libft.h"
+
 
 
 void ft_bzero(void *str, size_t n)

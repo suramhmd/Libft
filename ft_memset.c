@@ -6,12 +6,13 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/07 20:55:17 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/13 20:43:25 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/28 17:50:56 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
-#include <string.h>
+#include "libft.h"
+
 
 void *ft_memset(void *ptr, int value, size_t num)
 {

@@ -6,11 +6,12 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/10 00:18:47 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/13 20:43:46 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/28 17:50:40 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
+
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {
     size_t	i;

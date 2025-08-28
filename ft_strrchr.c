@@ -6,12 +6,12 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/15 20:06:19 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/15 20:38:42 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/28 17:50:20 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
-#include <stdio.h>
+#include "libft.h"
+
 size_t ft_strlen(const char *str)
 {
     int i;
