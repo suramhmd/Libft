@@ -6,31 +6,32 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/13 18:40:09 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/28 17:50:53 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/30 20:13:52 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strchr(const char *str, int c)
+char	*ft_strchr(const char *str, int c)
 {
-    int i;
-    i = 0;
+	int	i;
 
-    while (str[i] != '\0')
-    {
-        if (str[i] == c)
-        {
-         return ( (char *)&str[i]);   
-        }
-        i++;
-    }
-    if (c == '\0')
-    {
-        return ( (char *)&str[i]);
-    }
-    return (NULL);
+	i = 0;
+	while (str[i] != '\0')
+	{
+		if (str[i] == c)
+		{
+			return ((char *)&str[i]);
+		}
+		i++;
+	}
+	if (c == '\0')
+	{
+		return ((char *)&str[i]);
+	}
+	return (NULL);
 }
+
 // int main()
 // {
 //     const char *str = "Hello, World!";
@@ -45,5 +46,5 @@ char *ft_strchr(const char *str, int c)
 //     {
 //         printf("Character not found.\n");
 //     }
-//     return 0;
+//     return (0);
 // }

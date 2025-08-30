@@ -6,12 +6,11 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/08 17:36:35 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/28 17:51:02 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/30 20:13:30 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
@@ -29,6 +28,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
+
 // int main()
 // {
 //     char src[] = "Hello";
@@ -37,4 +37,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 //     ft_memcpy(dest, src, 6);
 //     printf("%s\n", dest);
 // }
-

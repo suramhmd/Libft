@@ -1,21 +1,41 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isdigit.c                                       :+:      :+:    :+:   */
+/*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/07 15:30:01 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/30 20:13:19 by sdaabes          ###   ########.fr       */
+/*   Created: 2025/08/30 19:57:27 by sdaabes           #+#    #+#             */
+/*   Updated: 2025/08/30 20:02:06 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isdigit(int c)
+void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
-	if (c >= '0' && c <= '9')
-		return (c);
-	else
-		return (0);
+	unsigned int	i;
+
+	if (!s || !f)
+		return ;
+	i = 0;
+	while (s[i])
+	{
+		f(i, &s[i]);
+		i++;
+	}
 }
+
+// void upper_even(unsigned int i, char *c)
+// {
+//     if (i % 2 == 0 && *c >= 'a' && *c <= 'z')
+//         *c = *c - 32;
+// }
+
+// int main(void)
+// {
+//     char str[] = "hello42";
+//     ft_striteri(str, upper_even);
+//     printf("%s\n", str);
+//     return (0);
+// }
