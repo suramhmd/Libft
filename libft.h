@@ -6,7 +6,7 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/10 14:52:13 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/28 17:52:57 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/29 21:37:45 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,8 @@ int ft_isascii(int c);
 int ft_isprint(int c);
 void *ft_memchr(const void *s, int c, size_t n);
 int ft_memcmp(const void *s1, const void *s2, size_t n);
-char *ft_strdup(const char *s1);    
+char *ft_strdup(const char *s1);   
+void* calloc(size_t num, size_t size);
+ 
 
 #endif
