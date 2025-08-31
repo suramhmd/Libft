@@ -6,7 +6,7 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/13 18:36:42 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/30 20:14:36 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/31 16:49:52 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,3 +20,11 @@ int	ft_tolower(int c)
 	}
 	return (c);
 }
+
+// int main()
+// {
+// 	int c = 'A';
+// 	printf("Original: %c\n", c);
+// 	printf("Lowercase: %c\n", ft_tolower(c));
+// 	return 0;
+// }

@@ -6,7 +6,7 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/30 17:39:11 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/30 20:14:34 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/31 16:49:41 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,3 +37,21 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	substr[i] = '\0';
 	return (substr);
 }
+
+// int main()
+// {
+// 	const char *s = "Hello, World!";
+// 	unsigned int start = 7;
+// 	size_t len = 5;
+// 	char *substr = ft_substr(s, start, len);
+// 	if (substr)
+// 	{
+// 		printf("Substring: %s\n", substr);
+// 		free(substr);
+// 	}
+// 	else
+// 	{
+// 		printf("Memory allocation failed\n");
+// 	}
+// 	return 0;
+// }

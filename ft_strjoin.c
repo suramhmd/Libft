@@ -6,7 +6,7 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/30 17:46:51 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/30 20:13:59 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/31 16:48:11 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,20 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	joined[len1 + len2] = '\0';
 	return (joined);
 }
+
+// int main()
+// {
+// 	const char *s1 = "Hello, ";
+// 	const char *s2 = "World!";
+// 	char *result = ft_strjoin(s1, s2);
+// 	if (result)
+// 	{
+// 		printf("Joined string: %s\n", result);
+// 		free(result);
+// 	}
+// 	else
+// 	{
+// 		printf("Memory allocation failed\n");
+// 	}
+// 	return 0;
+// }

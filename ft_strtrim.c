@@ -6,7 +6,7 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/30 18:29:34 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/30 19:24:22 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/31 16:49:23 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 	trimmed[end - start] = '\0';
 	return (trimmed);
 }
+
 //  int main ()
 //     {
 //         char str[] = "   Hello, World!   ";

@@ -6,7 +6,7 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/30 17:59:15 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/30 20:20:25 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/31 16:47:14 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,3 +20,12 @@ void	ft_putendl_fd(char *s, int fd)
 		write(fd, "\n", 1);
 	}
 }
+
+// int main()
+// {
+// 	char *s = "Hello, World!";
+// 	int fd = 1; // Standard output (stdout)
+
+// 	ft_putendl_fd(s, fd);
+// 	return 0;
+// }

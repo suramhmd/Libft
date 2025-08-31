@@ -6,7 +6,7 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/30 17:50:30 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/30 20:50:48 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/31 16:47:22 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,12 @@ void	ft_putnbr_fd(int n, int fd)
 	c = (n % 10) + '0';
 	write(fd, &c, 1);
 }
+
+// int main()
+// {
+// 	int n = -12345;
+// 	int fd = 1; // Standard output (stdout)
+
+// 	ft_putnbr_fd(n, fd);
+// 	return 0;
+// }

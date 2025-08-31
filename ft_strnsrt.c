@@ -6,7 +6,7 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/15 22:15:59 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/30 20:14:15 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/31 16:49:11 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,21 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
+
+// int main()
+// {
+// 	const char *big = "Hello, World!";
+// 	const char *little = "World";
+// 	size_t len = 13;
+
+// 	char *result = ft_strnstr(big, little, len);
+// 	if (result)
+// 	{
+// 		printf("Substring found: %s\n", result);
+// 	}
+// 	else
+// 	{
+// 		printf("Substring not found.\n");
+// 	}
+// 	return 0;
+// }

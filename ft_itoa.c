@@ -6,7 +6,7 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/30 18:08:32 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/30 18:11:27 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/31 16:46:28 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,3 +54,19 @@ char	*ft_itoa(int n)
 	}
 	return (str);
 }
+
+// int main()
+// {
+// 	int n = -12345;
+// 	char *str = ft_itoa(n);
+// 	if (str != NULL)
+// 	{
+// 		printf("The string representation of %d is: %s\n", n, str);
+// 		free(str);
+// 	}
+// 	else
+// 	{
+// 		printf("Memory allocation failed\n");
+// 	}
+// 	return 0;
+// }

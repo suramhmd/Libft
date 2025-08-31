@@ -6,7 +6,7 @@
 /*   By: sdaabes <sdaabes@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/07 15:13:15 by sdaabes           #+#    #+#             */
-/*   Updated: 2025/08/30 20:13:14 by sdaabes          ###   ########.fr       */
+/*   Updated: 2025/08/31 16:45:51 by sdaabes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,17 @@ int	ft_isalpha(int c)
 	else
 		return (0);
 }
+
+// int main()
+// {
+// 	int c = 'A';
+// 	if (ft_isalpha(c))
+// 	{
+// 		printf("%c is an alphabetic character.\n", c);
+// 	}
+// 	else
+// 	{
+// 		printf("%c is not an alphabetic character.\n", c);
+// 	}
+// 	return 0;
+// }
